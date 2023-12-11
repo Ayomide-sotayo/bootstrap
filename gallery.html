@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="static/images/LOGO.png" type="image/x-icon">
+<link rel="stylesheet" href="static/css/gallery.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<title>Sayf Furnitures</title>
+</head>
+<body>
+    <!--nav-->
+    <nav class="navbar navbar-dark fixed-top " style="opacity: 0.95;">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-4" href="#">Sayf Furnitures</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Sayf Furnitures</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" style="background-color: rgb(88, 81, 69);">
+                <ul class="navbar-nav justify-content-center flex-grow-1 fs-4 text-center">
+                  <li class="nav-item border-bottom my-3">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item border-bottom my-3">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item border-bottom my-3">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  <li class="nav-item border-bottom my-3">
+                  <a class="nav-link" href="about.html">About us</a>
+                  </li>
+                  <li class="nav-item border-bottom my-3">
+                    <a class="nav-link" href="cart.html">Cart</a>
+                  </li>
+                    <li class="nav-item border-bottom my-3">
+                      <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+                <div class="justify-content-center text-center my-5">
+                  <img src="static/images/LOGO.png" style="width: 150px;height: 150px;" alt="">
+                </div>
+              </div>
+          </div>
+        </div>
+      </nav>
+    <!-- nav-end -->
+      
+    <div id="carousel">
+        <div class="col-md-12">
+            <div class="text-center text-light">
+                <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">GALLERY</h1>
+            </div>
+        </div>
+        <div class="marquee-container">
+            <div class="marquee-content">
+            <img src="static/images/gallery/pexels-photo-1454806.webp"  alt>
+            <img src="static/images/gallery/pexels-photo-1571457.webp"  alt>
+            <img src="static/images/gallery/pexels-photo-271795.jpeg"  alt>
+            <img src="static/images/gallery/pexels-photo-439227.webp"  alt>
+            <img src="static/images/gallery/pexels-photo-2062426.jpeg"  alt>
+            <img src="static/images/gallery/pexels-photo-1454804.webp"  alt>
+            <img src="static/images/gallery/pexels-photo-237371.jpeg"  alt>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <div class="text text-center">
+                <h2 class="my-4">Featured Categories</h2>
+            </div>
+        </div>
+        
+        <div class="col-md-12">
+            <nav-gallery>
+                <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                  <button class="nav-link active text-secondary" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-Livingroom" aria-selected="true">Livingroom</button>
+                  <button class="nav-link text-secondary" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-Bedrrom" aria-selected="false">Bathroom</button>
+                  <button class="nav-link text-secondary" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-Kitchen" aria-selected="false">Kitchen</button>
+                  <button class="nav-link text-secondary" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-bathroom" aria-selected="false">Bedroom</button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active pt-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                    <div class="col-sm-12"> 
+                        <div class="row justify-content-center">
+                            <div class="image col-sm-3 bg-light p-3 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/chair1.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong>Fly ArmChair</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">chair</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/chair1.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>FLY ARM CHAIR</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/chair 2.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Contemporary Architect</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">chair</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/chair 2.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Contemporary Architect</h5>
+                                                                <P class="fs-5">Once tiny and dark, this Federation-style home belonging to Linda and Maurice Scott, became bigger in size and better with style.</P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/TABLE 1.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Clara Round coffee table </strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Table</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/TABLE 1.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Clara Round Cofee table </h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/table 2.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Vintage Table</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Table</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/table 2.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Vintage Table</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/chair5.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong>Modern Sofa</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">couch</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/chair5.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Modern Sofa</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/table 3.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Oak Max33 console</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Table</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/table 3.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Oak Max33 console</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-pane fade pt-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                    <div class="col-sm-12"> 
+                        <div class="row justify-content-center">
+                            <div class="image col-sm-3 bg-light p-3 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/bath 1.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Sayf Bath</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Bathtubs</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/bath 1.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>sayf Bath</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/bathroom.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Full bathroom Remodel</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Bathroom</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/bathroom.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Full Bathroom Remodel</h5>
+                                                                <P class="fs-5">Once tiny and dark, this Federation-style home belonging to Linda and Maurice Scott, became bigger in size and better with style.</P>
+                                                                <p><strong>price:</strong>$10000 <strike>$8000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/bathroom vanity.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Bathroom vanity </strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Vanity</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/bathroom vanity.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Bathroom Vanity</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/bath 6.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Ah deadly bathtub</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Bathtubs</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/bath 6.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Ah Deadly bathtubs</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/modern bath.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong>Herne Gray Remodels</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Remodel</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/modern bath.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Herne Gray Remodel</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$20000 <strike>$30000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/sayf bath.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong>Black Waterfall Shower</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Remodel</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/sayf bath.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Black Waterfall Shower</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+
+                
+                <div class="tab-pane fade pt-3" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                    <div class="col-sm-12"> 
+                        <div class="row justify-content-center">
+                            <div class="image col-sm-3 bg-light p-3 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/cabinet 2.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Oak Max33 cabinet</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal13">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">cabinets</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/cabinet 2.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Oak Max33 cabinet</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/kith.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Modern Kitchen Remodel</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal14">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Remodel</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/kith.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Modern Kitchen Remodel</h5>
+                                                                <P class="fs-5">Once tiny and dark, this Federation-style home belonging to Linda and Maurice Scott, became bigger in size and better with style.</P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/diniing.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Glam Gray </strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Dinning</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/diniing.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Glam Gray</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/kith2.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Nice One-Wall Kitchen</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal16">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Remodel</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/kith2.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Nice One-Wall Kitchen</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/kith3.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong>Magnet paint Kitchen</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal17">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">chair</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/kith3.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Magnet paint Kitchen</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/kith4.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Kitchen Island</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal18">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Kitchen</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/kith4.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Kitchen Island</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade pt-3" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab" tabindex="0">
+                    <div class="col-sm-12"> 
+                        <div class="row justify-content-center">
+                            <div class="image col-sm-3 bg-light p-3 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/bed 1.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Modern Glam Bed</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal19">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Bed</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/bed 1.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Modern Glam Bed</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/bed 2.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Contemporary Wooden Bed</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal20">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Bed</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/bed 2.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Contemporary Wooden Bed</h5>
+                                                                <P class="fs-5">Once tiny and dark, this Federation-style home belonging to Linda and Maurice Scott, became bigger in size and better with style.</P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/bed 6.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong> Modern Bunk Bed </strong></h4>
+                                    <h5><span class="badge bg-secondary me-2">New</span>Purchase Now and get 20% discount</h5>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal21">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Bed</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/bed 6.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Modern Bunk Bed</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/bed 3.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong>LaVaughn Palace</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal22">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Bed</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/bed 3.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>LaVaughn Palace</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/chair5.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong>Rose LaVaughn</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal23">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Bed</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/chair5.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Rose LaVaughn </h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="image col-sm-3 bg-light p-2 rounded mb-4">
+                                <div class="col-sm-12">
+                                    <img src="static/images/bed 5.jpg" class="w-100 rounded" alt="">
+                                    <br>
+                                    <h4 class="mt-3"> <strong>Simple Bed Glams</strong></h4>
+                                                                            <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal" data-bs-target="#exampleModal24">
+                                        View More
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Bed</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-sm-12">
+                                                        <img src="static/images/bed 5.jpg" class="w-100 rounded" alt="">
+                                                        <div class="text">
+                                                            <div class="col-sm-12">
+                                                                <h5>Simple Bed Glams</h5>
+                                                                <P class="fs-5">Shop suiteny.com for the Fly Armchair by Space Copenhagen. Space Copenhagen's Fly Series understands the importance of both comfort and functionality, and this is held to the highest esteem with the Fly Armchair. </P>
+                                                                <p><strong>price:</strong>$2000 <strike>$3000</strike></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button onclick="showAlert()" type="button" class="btn btn-primary">add to cart</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>No 1, Joju bustop, ogbohu plaza, beside Gt bank, Ota</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fa fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>07043814821</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fa fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>Sayfurnitures@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="static/images/LOGO.png" class="img-fluid" alt="logo" style="width: 20%;"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">about</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fa fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2018, All Right Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+
+    <script>
+        function showAlert() {
+          alert("YOU HAVE SUCCESFULLY ADDED A PRODUCT TO CART");
+        }
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="static/images/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Sayf Furnitures</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-dark fixed-top"style="opacity: 0.95;">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-4" href="#">Sayf Furnitures</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Sayf Furnitures</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" style="background-color: rgb(88, 81, 69);">
+              <ul class="navbar-nav justify-content-center flex-grow-1 fs-4 text-center">
+                <li class="nav-item border-bottom my-3">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item border-bottom my-3">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item border-bottom my-3">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                <li class="nav-item border-bottom my-3">
+                <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item border-bottom my-3">
+                  <a class="nav-link" href="cart.html">Cart</a>
+                </li>
+                  <li class="nav-item border-bottom my-3">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+              </ul>
+              <div class="justify-content-center text-center my-5">
+                <img src="static/images/LOGO.png" style="width: 150px;height: 150px;" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- nav-end -->
+    <!-- landing -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <video autoplay loop muted src="static/images/pexels_videos_2110972 (2160p).mp4" style="object-fit:cover; height: 700px;" class="w-100"></video>
+            <div class="overlay"></div>
+            <div class="col-sm-6" style="position: absolute; top: 20%; left: 5%; z-index: 1;">
+                <div class="image" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <img src="static/images/LOGO.png" alt="">
+                </div>
+                <div class="text text-light mt-4" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                   <h1 data-aos="fade-up"
+                   data-aos-duration="3000">Welcome to Sayf Furnitures</h1>
+                    <p class="fs-3" data-aos="fade-up"
+                    data-aos-duration="3000">Your trusted source for elegant and comfortable furniture.</p>
+                </div>
+                
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video autoplay loop muted src="static/video/video (1080p).mp4" style="object-fit:cover; height: 700px;" class="w-100"></video>
+            <div class="overlay"></div>
+            <div class="col-sm-6" style="position: absolute; top: 20%; left: 5%; z-index: 1;">
+                <div class="text text-light mt-4" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    <h1 >Elevate Your Culinary Space</h1>
+                    <p class="fs-3">Discover our exceptional kitchen collection, blending style and functionality seamlessly.</p>
+                </div>
+                <a href="gallery.html" class="btn btn-warning me-3">View In Gallery</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video autoplay loop muted src="static/video/pexels-kindel-media-7578551 (2160p).mp4" style="object-fit:cover; height: 700px;" class="w-100"></video>
+            <div class="overlay"></div>
+            <div class="col-md-6" style="position: absolute; top: 50%; left: 50%; translate: -50% -50%; z-index: 1;">
+                <div class="text-center text-light mt-4" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    <h1>Discover Elegance in Every Detail</h1>
+                    <p class="fs-3">Transform your bathroom with our exquisite collection of stylish and functional furnishings.</p>
+                </div>
+                <div class="col-sm-12 d-flex justify-content-center align-items-center">
+                    <a href="gallery.html" class="btn btn-warning me-3">View In Gallery</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- landing-page-end -->
+  <div class="bg-light pt-5">      
+    <div class="container">
+        <div class="col-sm-12">
+            <div class="row text-center mb-5">  
+                <div data-aos="fade-left" class="col-sm-3">
+                    <i class="fa fa-envelope" style="font-size: 80px;" aria-hidden="true"></i>
+                    <h2>Free delivery</h2>
+                    <p>For all orders above $4500</p>
+                </div>
+                <div data-aos="fade-right" class="col-sm-3">
+                    <i class="fa fa-money" style="font-size: 80px;" aria-hidden="true"></i>
+                    <h2>Secure Payments</h2>
+                    <p>Free from scam</p>
+                </div>
+                <div data-aos="fade-left" class="col-sm-3">
+                    <i class="fa fa-globe" style="font-size: 80px;" aria-hidden="true"></i>
+                    <h2>Top Notch-Support</h2>
+                    <p>Quick time support</p>
+                </div>
+                <div data-aos="fade-right" class="col-sm-3">
+                    <i class="fa fa-key" style="font-size: 80px;" aria-hidden="true"></i>
+                    <h2>180 Days Return</h2>
+                    <p>Free to return if specifications are not met</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- first-row -->
+    <div class="first-row">
+        <div class="container-fluid">
+            <div class="text-center mb-5"><h1 data-aos="fade-up">Popular Products</h1></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+      <div class="col-sm-12">
+        <div class="row justify-content-center">
+          <div class="card col-sm-3 me-3 mb-3 p-2"data-aos="fade-up" >
+            <img src="static/images/Mid-century Pierre Jeanneret re-editions at Arrowtown’s new Fehn Store.jpeg" style="height: 400px;" class="card-img-top" alt="...">
+            <div class="card-body" >
+              <h5 class="card-title">Detja Collections</h5>
+              <a href="#" onclick="showAlert()" class="btn btn-warning">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="card col-sm-3 me-3 mb-3 p-2"data-aos="fade-down" >
+            <img src="static/images/Leibal — Arc Chair.jpeg" class="card-img-top" style="height: 400px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Arc chair</h5>
+              <a href="#" onclick="showAlert()" class="btn btn-warning">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="card col-sm-3 me-3 mb-3 p-2"data-aos="fade-up">
+            <img src="static/images/Our favourite wooden armchairs and accent chairs to buy now.jpeg" style="height: 400px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">musse chair</h5>
+              <a href="#" onclick="showAlert()" class="btn btn-warning">Add to cart</a>
+            </div>
+          </div>
+
+          
+          <div class="card col-sm-3 me-3 mb-3 p-2"data-aos="fade-up" >
+            <img src="static/images/We Found 11 Less Expensive Dupes for Restoration Hardware's Cloud Sofa.jpeg" style="height: 400px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cloud Sofa</h5>
+              <a href="#" onclick="showAlert()" class="btn btn-warning">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="card col-sm-3 me-3 mb-3 p-2"data-aos="fade-down">
+            <img src="static/images/Apartment Therapy.jpeg" style="height: 400px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Theraphy Furniture</h5>
+              <a href="#" onclick="showAlert()" class="btn btn-warning">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="card col-sm-3 me-3 mb-3 p-2"data-aos="fade-up">
+            <img src="static/images/These Live Edge Wooden Sofas Are The Perfect Furniture Piece For a Rustic Design.jpeg" style="height: 400px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rustic wooden sofa</h5>
+              <a href="#" onclick="showAlert()" class="btn btn-warning">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--first-row-end  -->
+    <!-- second row -->
+    <div class="container-fliud">
+      <div class="col-sm-12 overflow-hidden">
+        <H2 class="text-center my-5" data-aos="fade-up">LATEST ARRIVALS</H2>
+        <div class="row">
+
+          <div class="col-sm-3">
+            <div class="image-container" data-aos="flip-left">
+              <img src="static/images/15 of the Best Decor Shops in Chicago, According to Designers.jpeg" class="rounded" alt="Image Title">
+              <div class="overlay-p">
+                <h3>x-500 summit furniture</h3> <br>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="image-container"data-aos="flip-right">
+              <img src="static/images/Chadwick Mid-Century Square Coffee Table _ Media & Console Tables.jpeg" class="rounded" alt="Image Title">
+              <div class="overlay-p">
+                <h3>Chadwick Coffee table</h3> <br>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="image-container"data-aos="flip-left">
+              <img src="static/images/de los trópicos.jpeg" class="rounded" alt="Image Title">
+              <div class="overlay-p">
+                <h3>del los trópicos</h3> <br>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="image-container"data-aos="flip-right">
+              <img src="static/images/5acc47da9e07db39fdf1e9cddd44f038.jpg" class="rounded" alt="Image Title">
+              <div class="overlay-p">
+                <h3>Modern cabinet</h3> <br>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3"data-aos="flip-right">
+            <div class="image-container">
+              <img src="static/images/6519fe18668fc38c9d65be3af86b3b07.jpg" class="rounded" alt="Image Title">
+              <div class="overlay-p">
+                <h3>Gorgeous wood furniture</h3> <br>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3"data-aos="flip-left">
+            <div class="image-container">
+              <img src="static/images/6f7b55854d7fd49740d91b39db828cf6.jpg" class="rounded" alt="Image Title">
+              <div class="overlay-p">
+                <h3>Giancallo valle</h3><br>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3"data-aos="flip-right">
+            <div class="image-container">
+              <img src="static/images/b4041deed6356ea5665f6ac1cb3dbca3.jpg" class="rounded" alt="Image Title">
+              <div class="overlay-p">
+                <h3>Live Edge Wooden Sofa</h3><br>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3"data-aos="flip-left">
+            <div class="image-container">
+              <img src="static/images/The Best Time of Day to Shop for Vintage Furniture Online.jpeg" class="rounded w-100" alt="Image Title">
+              <div class="overlay-p">
+                <h3>Vintage Table</h3><br>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second-row-end -->
+  </div>  
+
+<div class="container" data-aos="fade-down">
+  <div class="col-sm-12 p-4" style="height: 300px;">
+    <div class="display-4 text-light text-center mb-5">Stay In Touch With Us <br> To Be Updated</div>
+    <form action="" class="text-center" >
+      <input  type="email" placeholder=" Enter your mail" required  class="rounded me-3 p-2" style="height: 50px; border: none; width: 500px;">
+      <button type="submit" class="btn btn-outline-light">Subscribe</button>
+    </form>
+  </div>
+</div>
+
+<div class="container bg-light p-5 fs-5 mb-5"data-aos="zoom-in-up">
+  <div class="col-sm-12">
+      <div class="row">
+          <div class="col-sm-6"data-aos="fade-right">
+            <p><strong>Sustainability Matters:</strong>
+              We understand the importance of responsible manufacturing. That's why we prioritize sustainability in our practices. From ethically sourced materials to eco-friendly production processes, Sayf is committed to reducing our environmental footprint while delivering furniture that you can feel good about.
+              <br><br>
+              <strong>Customer-Centric Approach: </strong>
+              At Sayf Furnitures, your satisfaction is our priority. Our knowledgeable and friendly team is here to assist you in finding the perfect pieces for your home. From customizations to after-sales support, we strive to make your furniture-buying experience seamless and enjoyable.
+            </p>
+          </div>  
+          <div class="col-sm-6"data-aos="fade-left">
+            <img  class="w-100" src="static/images/pexels-freemockupsorg-775219.jpg" alt="">
+          </div>
+      </div>
+  </div>
+</div>
+<!-- footer -->
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fa fa-map-marker"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>No 1, Joju bustop, ogbohu plaza, beside Gt bank, Ota</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fa fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>07043814821</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                      <i class="fa fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>Sayfurnitures@gmail.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="index.html"><img src="static/images/LOGO.png" class="img-fluid" alt="logo" style="width: 20%;"></a>
+              </div>
+              <div class="footer-text">
+                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                  elit,Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-google"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Subscribe</h3>
+                      </div>
+                      <div class="footer-text mb-25">
+                          <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                      </div>
+                      <div class="subscribe-form">
+                          <form action="#">
+                              <input type="text" placeholder="Email Address">
+                              <button><i class="fa fa-telegram-plane"></i></button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright-area">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div class="copyright-text">
+                      <p>Copyright &copy; 2018, All Right Reserved</p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div class="footer-menu">
+                      <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Policy</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        <!-- footer end -->
+        <script>
+          function showAlert() {
+            alert("YOU HAVE SUCCESFULLY ADDED A PRODUCT TO CART");
+          }
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+        <script>
+          AOS.init();
+        </script>       
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html>
